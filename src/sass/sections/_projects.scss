@@ -72,6 +72,10 @@
           box-shadow: none;
           margin-bottom: 3.2rem;
         }
+
+        img {
+          border-radius: 15px !important; // Ensure rounded corners on images
+        }
       }
     }
   }

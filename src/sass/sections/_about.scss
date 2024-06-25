@@ -28,13 +28,16 @@
       height: 100%;
       align-items: center;
       justify-content: center;
-      border-radius : 50;
+      border-radius: 30px;
 
       @include respond(tab-land) {
         height: 100%;
       }
       @include respond(tab-port-sm) {
         padding-bottom: 6.4rem;
+      }
+      img {
+        border-radius:30px; // Add this line for rounded corners on images
       }
     }
 
